@@ -22,8 +22,7 @@ import torch.distributed as dist
 import torch.nn.functional as F
 
 from detectron2.layers import cat, shapes_to_tensor
-
-from utils.constants import *
+from ...utils.constants import *
 
 
 def pad_arbitrary_tensors(tensors, padding_value=0.):
