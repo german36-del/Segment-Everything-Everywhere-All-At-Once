@@ -38,7 +38,7 @@ dependencies = [
     "diffdist==0.1",
     "pyarrow==13.0.0",
     "cityscapesscripts==2.2.2",
-    "shapely==1.8.0",
+    "shapely==2.0.6",
     "scikit-image==0.21.0",
     "mup==1.0.0",
     "accelerate==0.23.0",
