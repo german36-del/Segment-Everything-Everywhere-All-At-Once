@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 name = "SEEM"
 version = "1.0"
 description = "Segment Everything Everywhere All at Once."
