@@ -5,7 +5,7 @@ description = "Segment Everything Everywhere All at Once."
 readme = "README.md"
 authors = [ "Xueyan Zou", "Jianwei Yang", "Hao Zhang", "Feng Li", "Linjie Li", "Jianfeng Wang", "Lijuan Wang", "Jianfeng Gao", "Yong Jae Lee"]
 
-packages = [{ include = "SEEM" }]
+packages = [{ include = "." }]
 
 [tool.poetry.dependencies]
 python = ">=3.8"
