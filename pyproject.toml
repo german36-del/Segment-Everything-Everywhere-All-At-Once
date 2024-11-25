@@ -1,7 +1,3 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "SEEM"
 version = "1.0"
@@ -59,8 +55,6 @@ detectron2 = {git = "https://github.com/MaureenZOU/detectron2-xyz.git"}
 "Code" = "https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/tree/v1.0"
 "Bug Tracker" = "https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once/issues"
 
-[tool.setuptools.packages.find]
-exclude = ["assets*"]
-
-[tool.wheel]
-exclude = ["assets*"]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
