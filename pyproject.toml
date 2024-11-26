@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "SEEM"
+name = "seem"
 version = "1.0"
 description = "Segment Everything Everywhere All at Once."
 readme = "README.md"
